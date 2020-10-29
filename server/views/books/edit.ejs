@@ -13,7 +13,8 @@
                     <input type="text" class="form-control" 
                     id = "Title"
                     placeholder="Enter the books title"
-                    name="Title" 
+                    name="Title"
+                    value = "<%=book.Title%>" 
                     required>
                 </div>
 
@@ -22,8 +23,8 @@
                     <textarea type="text" class="form-control" 
                     id = "Description"
                     placeholder="Enter a short Description of the book"
-                    name="Description" 
-                    required></textarea>
+                    name="Description"
+                    required>"<%=book.Description%>"</textarea>
                 </div>
 
                 <div class="form-group">
@@ -32,6 +33,7 @@
                     id = "Price" 
                     placeholder="Enter the Price of the"
                     name="Price" 
+                    value = "<%=book.Price%>"
                     required>
                 </div> 
 
@@ -41,6 +43,7 @@
                     id = "Author" 
                     placeholder="Enter books Author"
                     name="Author" 
+                    value = "<%=book.Author%>"
                     required>
                 </div> 
 
@@ -49,7 +52,8 @@
                     <input type="text" class="form-control" 
                     id = "Genre" 
                     placeholder="What is the books Genre"
-                    name="Genre" 
+                    name="Genre"
+                    value = "<%=book.Genre%>" 
                     required>
                 </div> 
         

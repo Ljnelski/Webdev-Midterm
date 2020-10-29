@@ -1,3 +1,9 @@
+/*
+	app.js
+	Liam Nelski
+	301064116
+	comp308-w2017-midterm
+*/
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');
